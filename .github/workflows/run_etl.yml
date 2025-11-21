@@ -30,7 +30,7 @@ jobs:
       - name: Run ETL Job
         run: |
           # Pastikan Pentaho menyimpan output ke ${GITHUB_WORKSPACE}/output/
-          ./pdi/kitchen.sh -file="${GITHUB_WORKSPACE}/etl/job_json_to_excel.kjb" -level=Basic
+          ./pdi/kitchen.sh -file="${GITHUB_WORKSPACE}/etl/excel_output.kjb" -level=Basic
 
       # 3. BARU: Commit dan Push Hasil ke Repo
       - name: Commit and Push Result
