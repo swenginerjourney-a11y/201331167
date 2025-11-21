@@ -73,3 +73,16 @@ The transformation path file:///Users/jds/Desktop/win/pentaho/transformasi.ktr i
 2025-11-21 02:52:02.203 INFO  <Thread-6> [/home/runner/work/201331167/201331167/etl/excel_output.kjb]  Finished job entry [Success] (result=[true])
 2025-11-21 02:52:02.203 INFO  <Thread-6> [/home/runner/work/201331167/201331167/etl/excel_output.kjb]  Finished job entry [Transformation] (result=[true])
 2025-11-21 02:52:02.205 WARN  <Thread-6> [/home/runner/work/201331167/201331167/etl/excel_output.kjb]  Job execution finished
+2025-11-21 02:53:30.144 WARN  <Thread-6> [/home/runner/work/201331167/201331167/etl/excel_output.kjb]  Start of job execution
+2025-11-21 02:53:30.187 INFO  <Thread-6> [/home/runner/work/201331167/201331167/etl/excel_output.kjb]  Starting entry [Transformation]
+2025-11-21 02:53:30.255 INFO  <Thread-6> [/home/runner/work/201331167/201331167/etl/excel_output.kjb]  Using run configuration [Pentaho local]
+2025-11-21 02:53:30.261 INFO  <Thread-6> [/home/runner/work/201331167/201331167/etl/excel_output.kjb  file:///home/runner/work/201331167/201331167/etl/pentaho_rest_json_input.ktr]  Dispatching started for transformation [pentaho_rest_json_input]
+2025-11-21 02:53:30.364 INFO  <pentaho_rest_json_input - Data grid> [/home/runner/work/201331167/201331167/etl/excel_output.kjb  file:///home/runner/work/201331167/201331167/etl/pentaho_rest_json_input.ktr]  Finished processing (I=0, O=0, R=0, W=1, U=0, E=0)
+2025-11-21 02:53:31.557 INFO  <pentaho_rest_json_input - REST client> [/home/runner/work/201331167/201331167/etl/excel_output.kjb  file:///home/runner/work/201331167/201331167/etl/pentaho_rest_json_input.ktr]  Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2025-11-21 02:53:31.586 INFO  <pentaho_rest_json_input - JSON input> [/home/runner/work/201331167/201331167/etl/excel_output.kjb  file:///home/runner/work/201331167/201331167/etl/pentaho_rest_json_input.ktr]  Finished processing (I=10, O=0, R=1, W=10, U=0, E=0)
+2025-11-21 02:53:31.588 INFO  <pentaho_rest_json_input - Select values> [/home/runner/work/201331167/201331167/etl/excel_output.kjb  file:///home/runner/work/201331167/201331167/etl/pentaho_rest_json_input.ktr]  Finished processing (I=0, O=0, R=10, W=10, U=0, E=0)
+2025-11-21 02:53:31.658 INFO  <pentaho_rest_json_input - Microsoft Excel output> [/home/runner/work/201331167/201331167/etl/excel_output.kjb  file:///home/runner/work/201331167/201331167/etl/pentaho_rest_json_input.ktr]  Finished processing (I=0, O=10, R=10, W=10, U=0, E=0)
+2025-11-21 02:53:31.666 INFO  <Thread-6> [/home/runner/work/201331167/201331167/etl/excel_output.kjb]  Starting entry [Success]
+2025-11-21 02:53:31.669 INFO  <Thread-6> [/home/runner/work/201331167/201331167/etl/excel_output.kjb]  Finished job entry [Success] (result=[true])
+2025-11-21 02:53:31.669 INFO  <Thread-6> [/home/runner/work/201331167/201331167/etl/excel_output.kjb]  Finished job entry [Transformation] (result=[true])
+2025-11-21 02:53:31.669 WARN  <Thread-6> [/home/runner/work/201331167/201331167/etl/excel_output.kjb]  Job execution finished
